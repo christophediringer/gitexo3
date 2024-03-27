@@ -79,8 +79,17 @@ ul {
 	justify-content: space-around;
 	align-items: center;
 }
+footer{
+	max-width: 1400px;
+	margin: auto;
+	background-color: black;
+}
 
-li {
+navli {
 	text-transform: uppercase;
 	font-weight: bold;
+}
+
+.minuscule {
+	color: white;
 }
