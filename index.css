@@ -85,11 +85,14 @@ footer{
 	background-color: #292F3B;
 }
 
-navli {
+nav li {
 	text-transform: uppercase;
 	font-weight: bold;
 }
 
+#footer_haut{
+	list-style: disc;
+}
 .minuscule {
 	color: white;
 }
