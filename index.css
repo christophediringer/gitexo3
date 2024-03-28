@@ -69,7 +69,7 @@ header {
 
 /* Main */
 
-ul {
+.nav {
 	list-style: none;
 	text-align: center;
 	padding: 20px;
@@ -92,7 +92,27 @@ nav li {
 
 #footer_haut{
 	list-style: disc;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 20px;
 }
 .minuscule {
 	color: white;
+}
+
+.bas{
+	list-style: none;
+	text-align: center;
+	padding: 40px;
+	max-width: 1300px;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+	color: rgb(255, 255, 255);
+}
+footer{
+	background-color: #292F3B;
 }
